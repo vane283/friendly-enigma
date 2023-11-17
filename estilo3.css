@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background:#c599ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color:#5c08b2 ;
+    margin-bottom:30px ;
+    margin-top: 30px;
+    margin-left:60px;
+    margin-right:80px ;
+
+}
+.logo{
+    flex: 20%;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 21px;
+}
+.logo h1{
+    color: white;
+    font-size: 45px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 60px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    flex:80%;
+}
+.menu{
+    flex: 80%;
+    text-align: right;
+    padding: 20px;
+    margin-bottom: 48px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+.menu a:hover{
+    color: whitesmoke;
+    border-top: 4px solid rgb(255, 255, 225);
+}
+#botao{
+    color: white;
+    border-radius: 5px;
+}
+#botao:hover{
+    border: none;
+    background: whitesmoke;
+    color: rgb(145, 145, 145)
+}
+section{
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+}
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section h3{
+    margin: 0;
+    font-size: 20px;
+}
+.card{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 1%;
+    border:1px solid#994dfa;
+    border-radius:20%;
+}
+.preco{
+    font-size: 20px;
+    color:#f0e6ff;
+}
+.botaosobre{
+    background:#49078f;
+    padding: 10px;
+    color:#f0e6ff;
+    text-decoration: none;
+
+}
+.botaosobre:hover{
+    background:#f5f6f7;
+    opacity:7;
+}
